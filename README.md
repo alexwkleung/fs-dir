@@ -28,4 +28,30 @@ import { readDirectory, removeExtension, filterByExtension, parseFile } from 'fs
 
 # Functions
 
-TBA.
+1. Read contents of a directory.
+
+```typescript
+//type signature
+function readDirectory(dirStr: string): string[]
+```
+
+2. Remove extensions from files.
+
+```typescript
+//type signature
+function removeExtension(dirArr: string[]): string[]
+```
+
+3. Filter directory files by extension.
+
+```typescript
+//type signature
+function filterByExtension(dirArr: string[], extension: string): string[]
+```
+
+4. Read a file from a directory.
+
+```typescript
+//type signature
+function parseFile(path: string): string
+```
