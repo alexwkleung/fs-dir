@@ -1,0 +1,27 @@
+{
+  "name": "fs-dir",
+  "version": "1.0.0",
+  "description": "Wrapper utility for file system operations using Node.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "clean": "npx tsc --build --clean",
+    "build-c": "npm run clean && npx tsc --build",
+    "build": "npx tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexwkleung/fs-dir.git"
+  },
+  "author": "alexwkleung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexwkleung/fs-dir/issues"
+  },
+  "homepage": "https://github.com/alexwkleung/fs-dir#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  }
+}
