@@ -88,3 +88,19 @@ export function parseFile(path: string): string {
         throw console.error(error);
     }
 }
+
+/**
+ * writeToFile function
+ * 
+ * Write content into a file
+ * 
+ * @param path The file to write to (file will be created if it does not exist)
+ * @param data The content to write into the file
+ */
+export function writeToFile(path: string, data: string): void {
+    const write = fs.writeFile(path, data, (error) => {
+        if(error) {
+            console.error(error);
+        }
+    });
+}

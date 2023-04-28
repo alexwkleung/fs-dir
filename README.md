@@ -55,3 +55,10 @@ function filterByExtension(dirArr: string[], extension: string): string[]
 //type signature
 function parseFile(path: string): string
 ```
+
+5. Write content into a file.
+
+```typescript
+//type signature
+function writeToFile(path: string, data: string): void
+```
