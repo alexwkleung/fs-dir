@@ -23,7 +23,7 @@ or
 
 ```typescript
 //import what you need from the package
-import { readDirectory, removeExtension, filterByExtension, parseFile } from 'fs-dir'
+import { readDirectory, removeExtension, filterByExtension, parseFile, writeToFile } from 'fs-dir'
 ```
 
 # Functions
