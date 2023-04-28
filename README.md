@@ -62,3 +62,7 @@ function parseFile(path: string): string
 //type signature
 function writeToFile(path: string, data: string): void
 ```
+
+# License
+
+[MIT License.](https://github.com/alexwkleung/fs-dir/blob/main/LICENSE)
