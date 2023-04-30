@@ -52,9 +52,9 @@ export function removeExtension(dirArr) {
  */
 export function filterByExtension(dirArr, extension) {
     const readDir = dirArr;
-    const dirFilter = readDir.filter((mdFilter) => {
+    const dirFilter = readDir.filter((filter) => {
         return [extension].some((end) => {
-            return mdFilter.endsWith(end);
+            return filter.endsWith(end);
         });
     });
     //return array containing filtered files based on extension

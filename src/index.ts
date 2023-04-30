@@ -60,9 +60,9 @@ export function filterByExtension(dirArr: string[], extension: string): string[]
     const readDir: string[] = dirArr;
 
     const dirFilter: string[] = readDir.filter(
-        (mdFilter: string): boolean => { 
+        (filter: string): boolean => { 
             return [extension].some((end: string): boolean => { 
-                return mdFilter.endsWith(end) 
+                return filter.endsWith(end) 
             })
         });
 
